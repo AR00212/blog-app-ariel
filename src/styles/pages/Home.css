@@ -1,0 +1,31 @@
+.home-controls {
+  border-radius: 10px;
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  padding: 10px 0;
+  z-index: 999;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  gap: 10px;
+}
+
+.home-controls input,
+.home-controls select {
+  padding: 8px 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+@media (max-width: 768px) {
+  .home-controls {
+    flex-direction: column; 
+    gap: 8px;
+  }
+
+  .home-controls input,
+  .home-controls select {
+    width: 100%;
+  }
+}

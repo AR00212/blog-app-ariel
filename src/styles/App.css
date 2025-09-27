@@ -1,0 +1,51 @@
+.app-container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.app-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.app-logo {
+  width: 60px;
+  height: auto;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.app-title {
+  text-align: center;
+  font-size: 36px;
+  color: #111;
+  letter-spacing: 1px;
+}
+
+@media (max-width: 768px) {
+  .app-title {
+    font-size: 28px;
+  }
+
+  .app-logo {
+    width: 50px;
+  }
+}
+
+@media (max-width: 480px) {
+  .app-title {
+    font-size: 24px;
+  }
+
+  .app-logo {
+    width: 40px;
+    left: 10px;
+  }
+}
