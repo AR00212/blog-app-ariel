@@ -19,6 +19,11 @@ Todo está hecho con componentes reutilizables para que el código sea más limp
 - npm (v10 o superior)  
 - Navegador moderno (Chrome, Firefox, Edge)
 
+### Dependencias principales
+- react  
+- react-dom  
+- react-router-dom  
+
 ### Ubuntu / Linux, Windows y MacOS
 ```bash
 # Ubuntu / Linux
